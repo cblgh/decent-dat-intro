@@ -1,0 +1,99 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("/OpenSans-Regular.ttf");
+}
+
+body {
+    font-family: OpenSans;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: #070707;
+    color: #93E998;
+}
+
+.msg {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "time text"
+    ;
+}
+
+.msg-txt {
+    grid-area: text;
+}
+
+.msg-time {
+    grid-area: time;
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("/SpaceMono-Regular.ttf");
+}
+
+#peer-container {
+    grid-area: peers;
+    font-size: 9pt;
+    word-break: break-all;
+}
+#peer-container li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+#peers {
+    padding: 0;
+    margin: 0;
+    margin-right: 25px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 325px 325px 60px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "peers title   title  .     "
+    "peers chatbox save   .     "
+    "peers peer    fetch  .     "
+    "peers chat    chat   chat  "
+    ;
+}
+
+
+#chatbox, #save-btn, #fetch-btn, #peer {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#chatbox, #peer {
+    padding: 7px;
+    width: 320px;
+    margin-right: -7px;
+}
+
+#title {
+    grid-area: title;
+}
+
+#chat {
+    grid-area: chat;
+    margin-top: 15px;
+}
+
+#chatbox {
+    grid-area: chatbox;
+}
+
+#peer {
+    grid-area: peer;
+}
+
+#fetch-btn {
+    grid-area: fetch;
+}
+
+#save-btn {
+    grid-area: save;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("/OpenSans-Regular.ttf");
+}
+
+body {
+    font-family: OpenSans;
+    margin-left: 100px;
+    background-color: #070707;
+    color: #93E998;
+    margin-top: 55px;
+}
+
+a {
+    color: #D71D96;
+}
+
+img {
+    border-radius: 25px;
+}

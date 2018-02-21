@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "SpaceMono";
+    src: url("/SpaceMono-Regular.ttf");
+}
+body {
+    font-family: "SpaceMono", monospace;
+    background-color: "#f2f2f2";
+}
+
+#grid-container {
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: 155px 325px 60px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". title title ."
+    ". color save  ."
+    ". dat   fetch .";
+}
+
+#title {
+    grid-area: title;
+}
+
+#color-input {
+    grid-area: color;
+}
+
+#color-input, #save-btn, #fetch-btn, #dat-input {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#color-input, #dat-input {
+    padding: 7px;
+    width: 320px;
+    margin-right: -7px;
+}
+
+#dat-input {
+    grid-area: dat;
+}
+
+#fetch-btn {
+    grid-area: fetch;
+}
+
+#save-btn {
+    grid-area: save;
+}

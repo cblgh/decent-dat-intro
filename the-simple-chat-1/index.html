@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>[chat] chatty p2p apps</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="/script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="grid-container">
+            <div id="peer-container">
+                <div id="peer-title">currently tracking messages from</div>
+                <ul id="peers"></ul>
+            </div>
+            <h1 id="title">the simple dat chat</h1>
+            <input placeholder="fetch dat friend messages" id="peer">
+            <button id="fetch-btn" onclick="readRemote()">fetch</button>
+            <input placeholder="write a message" id="chatbox">
+            <button id="save-btn" onclick="saveMsg()">post</button>
+            <div id="chat"></div>
+        </div>
+    </body>
+</html>
+
