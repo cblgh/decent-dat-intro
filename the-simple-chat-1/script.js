@@ -77,7 +77,7 @@ function normalize(url)
 }
 
 function compare(a, b) {
-    return parseInt(a.time) > parseInt(b.time)
+    return parseInt(a.time) < parseInt(b.time)
 }
 
 function readChat(dat) {
