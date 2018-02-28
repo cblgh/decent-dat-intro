@@ -1,8 +1,9 @@
 # decent-dat-intro
 a buffet of tiny demos for easing in everyone with developing decentralized apps using [beaker](http://beakerbrowser.com/) & [dat](https://datproject.org/)
 
+_if you're wondering what this is all about, check out the [lecture](https://www.youtube.com/watch?v=-0cgl6okmUs) (30 minutes)_
 
-if you want to check them out you will need [Beaker Browser](http://beakerbrowser.com/). once you have it installed you can either:
+if you want to see the demos in action you will need [Beaker Browser](http://beakerbrowser.com/). once you have it installed you can either:
 * visit the dat urls below (optionally using beaker's forking function to create a local copy that you can edit!)
 * or do it locally, using the following steps 
    1. clone the repo 
