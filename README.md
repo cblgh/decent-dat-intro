@@ -1,7 +1,15 @@
 # decent-dat-intro
-a buffet of tiny demos for easing in everyone with developing decentralized apps
+a buffet of tiny demos for easing in everyone with developing decentralized apps using [beaker](http://beakerbrowser.com/) & [dat](https://datproject.org/)
 
-list of original dat urls
+
+if you want to check them out you will need [Beaker Browser](http://beakerbrowser.com/). once you have it installed you can either:
+* visit the dat urls below (optionally using beaker's forking function to create a local copy that you can edit!)
+* or do it locally, using the following steps 
+   1. clone the repo 
+   1. open beaker & choose `Create new site` in the burger menu
+   1. copy the contents of the demo you want to check out to the new site's folder (located in `~/Sites/` directory, which is where beaker stores its sites)
+----
+### the list of original dat urls
 * the list of everything  
    `dat://e503e220e76944d773c8d90cf67f179ac6126a298301b23961567de69ad16a09/`
 * the simple html life  
